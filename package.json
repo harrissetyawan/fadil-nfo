@@ -2,10 +2,11 @@
   "name": "nfo",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/js/app.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "npx tailwindcss -i ./src/input.css -o ./src/output/style.css --watch"
+    "run": "npx tailwindcss -i ./src/input.css -o ./src/output/style.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output/style.css"
   },
   "keywords": [],
   "author": "",
