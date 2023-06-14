@@ -7,7 +7,7 @@ fetch('https://harrissetyawan.github.io/fadil-nfo/src/js/output.json')
     data.forEach((product) => {
       // Your code to populate the HTML with the product data
       productList +=
-        `<div id="content" class="p-2 w-36 h-max md:w-52 drop-shadow-md bg-white rounded-lg md:shrink-0">
+        `<div id="content" class="p-2 w-32 h-max md:w-52 drop-shadow-md bg-white rounded-lg md:shrink-0">
         <img src="${product.product_img}" alt="" class="rounded-lg brightness-75 w-full">
         <div id="content-info" class="rounded-sm py-2">
           <p class="tracking-wide w-full font-normal text-[0.90rem] line-clamp-2 text-slate-950">

@@ -902,6 +902,10 @@ video {
   width: 100%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -912,6 +916,10 @@ video {
 
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.shrink {
+  flex-shrink: 1;
 }
 
 .cursor-pointer {
