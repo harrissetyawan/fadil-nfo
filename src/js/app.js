@@ -1,4 +1,4 @@
-fetch('output.json')
+fetch('https://harrissetyawan.github.io/fadil-nfo/src/js/output.json')
   .then(response => response.json())
   .then(data => {
 
